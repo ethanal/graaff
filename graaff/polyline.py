@@ -47,7 +47,7 @@ def encode_float(f):
 
 def encode_polyline(points):
     # Convert any tuples to lists so they can be modified in place
-    points = map(list, points)
+    points = list(map(list, points))
 
     for i in reversed(range(len(points) - 1)):
         points[i + 1][0] -= points[i][0]
