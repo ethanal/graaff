@@ -1,4 +1,4 @@
-# Graaf
+# Graaff
 **Python Google Static Maps URL Generator**
 
 [![Build Status](https://travis-ci.org/ethanal/graaff.svg)](https://travis-ci.org/ethanal/graaff)
